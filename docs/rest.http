@@ -1,0 +1,28 @@
+### v0
+GET http://localhost:3000/v0
+
+### route param
+GET http://localhost:3000/v0/mouse/5
+
+### query param
+GET http://localhost:3000/v0?name=keyboard&id=2
+
+### JSON response
+GET http://localhost:3000/v0/json
+
+### method POST
+POST http://localhost:3000/v0/product
+
+{
+  "name": "mouse"
+}
+
+### main
+### method POST
+POST http://localhost:3000/campaigns
+
+{
+  "Name": "mouse",
+  "Content": "Change password",
+  "Emails": ["email@email.com"]
+}
